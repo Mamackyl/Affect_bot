@@ -1,0 +1,11 @@
+meta:
+  environment: python
+  toolchain:
+    name: pip
+    version: 3.11
+build:
+  requirementsPath: requirements.txt
+run:
+  scriptName: https://github.com/Mamackyl/Affect_bot/blob/54b333607e2934078eaf91c4dc230c7944ca33b2/Mamackyl.py
+  persistenceMount: /data
+  containerPort: 80
